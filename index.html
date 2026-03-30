@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stines Machine Inc. | Precision CNC Machining San Diego</title>
+    <link rel="icon" type="image/png" href="fav.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Oswald:wght@500;700&display=swap');
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        h1, h2, h3, .nav-link { font-family: 'Oswald', sans-serif; text-transform: uppercase; letter-spacing: 0.03em; }
+        
+        /* Custom Primary Color Utility */
+        .text-primary { color: #AA2424; }
+        .bg-primary { background-color: #AA2424; }
+        .border-primary { border-color: #AA2424; }
+        .hover-bg-primary:hover { background-color: #921A1A; }
+        .hover-text-primary:hover { color: #921A1A; }
+
+            /* This must be at the very top of your CSS */
+        html {
+            scroll-behavior: smooth !important;
+        }
+
+        /* This prevents your fixed header from covering the section title */
+        section {
+            scroll-margin-top: 80px; 
+        }
+
+        /* Your existing styles... */
+        body { font-family: 'Inter', sans-serif; }
+
+        .hero-bg { 
+            background: linear-gradient(rgba(15, 23, 42, 0.88), rgba(15, 23, 42, 0.88)), 
+            url('stock.jpg'); 
+            background-size: cover; background-position: center; 
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-sm shadow-sm border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+            <a href="#home" class="flex items-center">
+                <img src="logo.png" alt="Stines Machine Logo" class="h-12 w-auto object-contain">
+            </a>
+
+            <div class="hidden md:flex items-center space-x-10 text-sm font-semibold">
+                <a href="#home" class="nav-link hover-text-primary transition">Home</a>
+                <a href="#services" class="nav-link hover-text-primary transition">Services</a>
+                <a href="#equipment" class="nav-link hover-text-primary transition">Equipment</a>
+                <a href="#about" class="nav-link hover-text-primary transition">About</a>
+                <a href="#contact" class="bg-primary text-white px-6 py-3 rounded-sm hover-bg-primary transition shadow-md">GET A QUOTE</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-bg h-screen flex items-center px-6">
+        <div class="max-w-7xl mx-auto w-full">
+            <div class="max-w-2xl">
+                <div class="inline-block bg-primary text-white text-xs font-bold px-3 py-1 mb-6 tracking-widest uppercase">Since 1969</div>
+                <h1 class="text-5xl md:text-7xl text-white mb-6">Expertise. <br><span class="text-primary">Experience.</span> <br>Solutions.</h1>
+                <p class="text-lg text-slate-300 mb-10 leading-relaxed font-light">
+                    ISO 9001:2015 Certified & ITAR Registered machine shop in San Diego. We have the people, equipment, and know-how to make your jobs happen right—on-time and on-budget.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#services" class="bg-white text-slate-900 px-8 py-4 font-bold hover:bg-slate-100 transition shadow-lg">OUR CAPABILITIES</a>
+                    <a href="#contact" class="border border-white text-white px-8 py-4 font-bold hover:bg-white hover:text-slate-900 transition">CONTACT US</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="mb-20">
+                <h2 class="text-4xl font-bold text-slate-900">Capabilities</h2>
+                <div class="w-16 h-1 bg-primary mt-4"></div>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-12">
+                <div>
+                    <div class="text-primary mb-6 text-3xl"><i class="fas fa-microchip"></i></div>
+                    <h3 class="text-2xl font-bold mb-4">CNC Turning & Milling</h3>
+                    <p class="text-slate-600 mb-6">Vertical mills up to 40" x 20" beds and Horizontal mills (8 pallet and 2 pallet systems). Our CNC Turning centers feature through-spindle capacity and twin-spindle mill-turn capabilities.</p>
+                    <ul class="space-y-2 text-sm text-slate-500">
+                        <li><i class="fas fa-angle-right text-primary mr-2"></i> Moriseiki ZL-203 Twin Spindle</li>
+                        <li><i class="fas fa-angle-right text-primary mr-2"></i> Ikegai TUR25 Mill-Turn</li>
+                        <li><i class="fas fa-angle-right text-primary mr-2"></i> 4th-Axis Milling Heads</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="text-primary mb-6 text-3xl"><i class="fas fa-industry"></i></div>
+                    <h3 class="text-2xl font-bold mb-4">Industries Served</h3>
+                    <p class="text-slate-600 mb-6">We provide precision components for high-reliability sectors requiring strict adherence to tolerances and documentation.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">AEROSPACE</span>
+                        <span class="bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">DEFENSE</span>
+                        <span class="bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">BIOTECH</span>
+                        <span class="bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">MEDICAL</span>
+                        <span class="bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">MICROWAVE</span>
+                        <span class="bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">SEMICONDUCTOR</span>
+                        <span class="bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">UNDERWATER</span>
+                        <span class="bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">AND MORE...</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="text-primary mb-6 text-3xl"><i class="fas fa-certificate"></i></div>
+                    <h3 class="text-2xl font-bold mb-4">Quality & Materials</h3>
+                    <p class="text-slate-600 mb-6">ISO 9001:2015 certified shop floor using Hexagon CMM technology. We work with everything from Anodized Aluminum and Stainless to Ultem Plastics and Titanium.</p>
+                    <ul class="space-y-2 text-sm text-slate-500">
+                        <li><i class="fas fa-check text-primary mr-2"></i> ITAR Registered</li>
+                        <li><i class="fas fa-check text-primary mr-2"></i> Hexagon Global Performance CMM</li>
+                        <li><i class="fas fa-check text-primary mr-2"></i> Turn-key solutions (Plating/Heat Treat)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="equipment" class="py-24 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-12 text-center">Equipment List</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 shadow-sm border-t-4 border-primary">
+                    <h4 class="font-bold text-lg mb-4">CNC Milling</h4>
+                    <ul class="text-sm space-y-2 text-slate-600">
+                        <li><strong>Kitamura Mycenter 4XD</strong> (40" x 20")</li>
+                        <li><strong>OKK HM500S</strong> (8-Pallet System)</li>
+                        <li><strong>Fanuc Robodrill a-T14iA</strong> (Pallet Switcher)</li>
+                        <li><strong>Takumi V10</strong> (40" x 20")</li>
+                        <li><strong>Supermax FV102A</strong> (40" x 20")</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 shadow-sm border-t-4 border-primary">
+                    <h4 class="font-bold text-lg mb-4">CNC Turning</h4>
+                    <ul class="text-sm space-y-2 text-slate-600">
+                        <li><strong>Mori Seiki ZL-203</strong> Twin Spindle</li>
+                        <li><strong>Ikegai TUR25</strong> Mill-Turn</li>
+                        <li><strong>Hardinge Conquest 42</strong></li>
+                        <li><strong>Daewoo Puma 240B</strong></li>
+                        <li><strong>Takisawa TC20-L3</strong> (x3 Units)</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 shadow-sm border-t-4 border-primary">
+                    <h4 class="font-bold text-lg mb-4">Inspection & Finishing</h4>
+                    <ul class="text-sm space-y-2 text-slate-600">
+                        <li><strong>Hexagon Global Performance</strong> CMM</li>
+                        <li><strong>Mitutoyo PH3500</strong> Profile Projector</li>
+                        <li><strong>Sunnen MBB-1660</strong> Hone</li>
+                        <li><strong>Trinco 36/BP</strong> Bead Blaster</li>
+                        <li><strong>Cooljet</strong> 1000 PSI System</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row gap-16 items-center">
+            <div class="md:w-1/2">
+                <h2 class="text-4xl font-bold mb-8">Our History</h2>
+                <p class="text-slate-400 mb- leading-relaxed">
+                    Stines Machine has been a fixture in San Diego manufacturing since 1969. With over 50 years in business, we pride ourselves on a culture of longevity—our employees average 15 years of tenure with the company.
+                </p>
+                <p class="text-slate-400 mb-8 leading-relaxed">
+                    This deep-rooted experience allows us to implement your designs efficiently, moving from prototype to full-scale production while maintaining the rigorous quality standards required by the aerospace and medical industries.
+                </p>
+                <div class="border-l-4 border-primary pl-6 py-2 italic text-primary">
+                    "Conveniently located in Vista, CA, we have the people and equipment to make your project a reality."
+                </div>
+            </div>
+            <div class="md:w-1/2 grid grid-cols-2 gap-4">
+                <div class="bg-slate-800 p-8 text-center rounded-lg border border-slate-700">
+                    <div class="text-4xl font-bold text-primary mb-2">50+</div>
+                    <div class="text-xs font-bold uppercase tracking-widest">Years in Business</div>
+                </div>
+                <div class="bg-slate-800 p-8 text-center rounded-lg border border-slate-700">
+                    <div class="text-4xl font-bold text-primary mb-2">15</div>
+                    <div class="text-xs font-bold uppercase tracking-widest">Years Avg. Staff Tenure</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="grid lg:grid-cols-2 gap-16">
+            
+            <div>
+                <h2 class="text-3xl font-bold mb-6">Submit an RFQ</h2>
+                <p class="text-slate-600 mb-10">We offer turn-key solutions including outside Plating, Grinding, Honing, Heat Treat, NDT, Paint, or Polish. Let us handle the logistics of your assembly.</p>
+                
+                <div class="space-y-6">
+                    <div class="flex items-start">
+                        <i class="fas fa-location-dot text-primary mt-1 mr-4"></i>
+                        <div>
+                            <h4 class="font-bold">Address</h4>
+                            <p class="text-slate-500">2481 Coral Street, Vista, California 92081</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <i class="fas fa-phone text-primary mt-1 mr-4"></i>
+                        <div>
+                            <h4 class="font-bold">Phone</h4>
+                            <p class="text-slate-500">760.599.9955</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <i class="fas fa-fax text-primary mt-1 mr-4"></i>
+                        <div>
+                            <h4 class="font-bold uppercase text-xs tracking-wider">Fax</h4>
+                            <p class="text-slate-500">760.599.9947</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <i class="fas fa-envelope text-primary mt-1 mr-4"></i>
+                        <div>
+                            <h4 class="font-bold">Email</h4>
+                            <p class="text-slate-500">rfq@stinesmachineinc.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-50 p-8 rounded-lg shadow-inner border border-slate-100">
+                <form action="https://api.web3forms.com/submit" method="POST" class="space-y-4">
+                    
+                    <input type="hidden" name="access_key" value="24fa8d27-d95b-494c-8968-f4dc4660be7e">
+                    
+                    <input type="hidden" name="subject" value="New RFQ from StinesMachineInc.com">
+
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <input type="text" name="name" placeholder="Name" required 
+                               class="w-full p-4 border rounded-sm focus:outline-primary">
+                        <input type="email" name="email" placeholder="Email" required 
+                               class="w-full p-4 border rounded-sm focus:outline-primary">
+                    </div>
+                    <input type="text" name="company" placeholder="Company" 
+                           class="w-full p-4 border rounded-sm focus:outline-primary">
+                    <textarea name="message" placeholder="Message / Project Details (Materials, Tolerances, Quantity)" rows="5" required 
+                              class="w-full p-4 border rounded-sm focus:outline-primary"></textarea>
+                    
+                    <input type="checkbox" name="botcheck" class="hidden" style="display:none">
+
+                    <div class="p-4 bg-slate-100 border-l-4 border-primary text-sm text-slate-600">
+                        <p class="font-bold mb-1">Need to send files?</p>
+                        <p>Please email your drawings, 3D models (STEP/IGS), or specifications directly to 
+                        <a href="mailto:rfq@stinesmachineinc.com" class="text-primary hover:underline">rfq@stinesmachineinc.com</a> 
+                        after submitting this form.
+                        </p>
+                    </div>
+
+                    <div class="h-captcha" data-captcha="true"></div>
+
+                    <button type="submit" class="w-full bg-primary text-white font-bold py-4 hover-bg-primary transition shadow-md">
+                        SUBMIT REQUEST
+                    </button>
+                </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+
+    <footer class="py-12 bg-slate-900 text-slate-500 text-center text-sm border-t border-slate-800">
+        <div class="mb-4">
+            <span class="px-2">OKK</span> • <span class="px-2">HARDINGE</span> • <span class="px-2">HEXAGON</span> • <span class="px-2">MORISEIKI</span> • <span class="px-2">IKEGAI</span> • <span class="px-2">DAEWOO</span>
+        </div>
+        <p>&copy; 2026 Stines Machine Inc. | ISO 9001:2015 Certified | ITAR Registered</p>
+    </footer>
+
+</body>
+</html>
